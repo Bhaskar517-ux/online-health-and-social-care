@@ -1,0 +1,134 @@
+/* [project]/app/components/Footer.css [app-client] (css) */
+.footer {
+  background-color: #222;
+  color: #ddd;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  width: 23%;
+}
+
+.footer-section h4 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #007bff;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-section .social-icons a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #111;
+}
+
+@media (width <= 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.footer {
+  background-color: #222;
+  color: #ddd;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  width: 23%;
+}
+
+.footer-section h4 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #007bff;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-section .social-icons a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #111;
+}
+
+@media (width <= 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=app_components_Footer_b52d8e.css.map*/
